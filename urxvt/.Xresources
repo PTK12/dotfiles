@@ -11,7 +11,7 @@
 ! soft contrast: *background: #32302f
 *background: #111111
 ! *foreground: #ebdbb2
-*background: #ffffff
+*foreground: #ffffff
 ! Black + DarkGrey
 *color0:  #282828
 *color8:  #928374
@@ -38,15 +38,15 @@
 *color15: #ebdbb2
 
 !! URxvt Appearance
-URxvt*font: xft:terminus
-URxvt*boldFont: xft:terminus:bold
+URxvt*font: xft:terminus:pixelsize=16
+URxvt*boldFont: xft:terminus:bold:pixelsize=16
 URxvt.keysym.C-minus:  resize-font:smaller
 URxvt.keysym.C-plus:   resize-font:bigger
 URxvt.keysym.C-equal:  resize-font:equal
 URxvt.letterSpace: 0
 URxvt.lineSpace: 0
 URxvt.geometry: 92x24
-URxvt.internalBorder: 24
+URxvt.internalBorder: 16
 URxvt.cursorBlink: true
 URxvt.cursorUnderline: false
 URxvt.saveline: 2048
