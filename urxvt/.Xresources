@@ -7,9 +7,11 @@
 ! -----------------------------------------------------------------------------
 
 ! hard contrast: *background: #1d2021
-*background: #282828
+! default gruvbox: *background: #282828
 ! soft contrast: *background: #32302f
-*foreground: #ebdbb2
+*background: #111111
+! *foreground: #ebdbb2
+*background: #ffffff
 ! Black + DarkGrey
 *color0:  #282828
 *color8:  #928374
@@ -36,8 +38,8 @@
 *color15: #ebdbb2
 
 !! URxvt Appearance
-URxvt*font: xft:DejaVu Sans Mono:pixelsize=16:antialias=true:hinting=true
-URxvt*boldFont: xft:DejaVu Sans Mono:bold:pixelsize=16:antialias=true:hinting=true
+URxvt*font: xft:terminus
+URxvt*boldFont: xft:terminus:bold
 URxvt.keysym.C-minus:  resize-font:smaller
 URxvt.keysym.C-plus:   resize-font:bigger
 URxvt.keysym.C-equal:  resize-font:equal
