@@ -1,2 +1,2 @@
-# Stuff
-Config files for linux (_100% not using github as backup storage_)
+# About
+Here are my config files!
